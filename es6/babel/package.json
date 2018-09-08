@@ -1,0 +1,27 @@
+{
+  "name": "learning-babel",
+  "version": "1.0.0",
+  "description": "learning babel",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint my-file.js",
+    "build": "babel src -d lib",
+    "test": "mocha --ui qunit --compilers js:babel-core/register"
+  },
+  "author": "Yeehom Foo",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^9.0.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "babelify": "^10.0.0",
+    "eslint": "^5.5.0"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-polyfill": "^6.26.0"
+  }
+}
