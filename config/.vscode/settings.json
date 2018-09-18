@@ -1,0 +1,33 @@
+{
+  "workbench.colorTheme": "Monokai Dimmed",
+  "files.autoSave": "afterDelay",
+  "update.enableWindowsBackgroundUpdates": false,
+  "update.channel": "none",
+  "files.autoSaveDelay": 10000,
+  "files.exclude": {
+    "**/.idea": true,
+    "**/*.iml": true
+  },
+  "explorer.confirmDelete": false,
+  "workbench.iconTheme": "vscode-icons",
+  "explorer.confirmDragAndDrop": false,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "editor.tabSize": 2,
+  "vetur.format.defaultFormatter.js": "vscode-typescript",
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "html",
+      "autoFix": true
+    },
+    {
+      "language": "vue",
+      "autoFix": true
+    }
+  ],
+}
